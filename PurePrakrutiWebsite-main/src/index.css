@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.prop{
+    letter-spacing: 4rem;
+
+
+}
+.text_properties{
+    text-shadow: 0 0.5em rgb(85 227 34 / 33%), 0 0.8em rgb(85 227 34 / 16%), 0 2.3em rgb(85,227,34,0.1), 0 -0.5em rgb(85 227 34 / 30%), 0 -0.8em rgb(85 227 34 / 16%);
+}
+
+.wrapper{
+    perspective: 10px;
+    overflow-x: hidden;
+
+}

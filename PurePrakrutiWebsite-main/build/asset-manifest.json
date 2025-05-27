@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b0ea0ee.css",
+    "main.js": "/static/js/main.7573f404.js",
+    "static/js/787.219025fc.chunk.js": "/static/js/787.219025fc.chunk.js",
+    "static/media/natureImg.png": "/static/media/natureImg.d417e7fb7013db71d05a.png",
+    "static/media/PurePrakritibgImg.jpg": "/static/media/PurePrakritibgImg.eab838df4f268ae0d37a.jpg",
+    "static/media/forest.png": "/static/media/forest.97483d7e99512545631f.png",
+    "static/media/rajesh.jpg": "/static/media/rajesh.4bfe6dc5257f6009d91e.jpg",
+    "static/media/Screenshot4.png": "/static/media/Screenshot4.789ccd4d3beb4e2f1220.png",
+    "static/media/pureprakrti.png": "/static/media/pureprakrti.5eea0f58dfba1ac869f4.png",
+    "static/media/Screenshot2.png": "/static/media/Screenshot2.b18820be49d3d5e999d7.png",
+    "static/media/Screenshot1.png": "/static/media/Screenshot1.06c8bd7659905f2de1be.png",
+    "static/media/Map.png": "/static/media/Map.a168914d8d8e52244bb6.png",
+    "static/media/Screenshot3.png": "/static/media/Screenshot3.7e9a5798bdbd1dbe3e19.png",
+    "static/media/google.png": "/static/media/google.92a9b43f0bf01a910990.png",
+    "index.html": "/index.html",
+    "main.6b0ea0ee.css.map": "/static/css/main.6b0ea0ee.css.map",
+    "main.7573f404.js.map": "/static/js/main.7573f404.js.map",
+    "787.219025fc.chunk.js.map": "/static/js/787.219025fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b0ea0ee.css",
+    "static/js/main.7573f404.js"
+  ]
+}
