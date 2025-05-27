@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased text-gray-800;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-green-600 text-white px-6 py-2 rounded-lg 
+           hover:bg-green-700 transition-colors duration-300
+           focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-opacity-50;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-white text-white px-6 py-2 rounded-lg
+           hover:bg-white hover:text-green-600 transition-colors duration-300
+           focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50;
+  }
+
+  .card {
+    @apply bg-white rounded-lg shadow-md p-6 
+           hover:shadow-xl transition-shadow duration-300;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-2 border rounded-lg
+           focus:outline-none focus:ring-2 focus:ring-green-400
+           transition-shadow duration-200;
+  }
+}
+
+.prop {
+  letter-spacing: 4rem;
+}
+
+.text_properties {
+  text-shadow: 0 0.5em rgb(85 227 34 / 33%), 
+               0 0.8em rgb(85 227 34 / 16%), 
+               0 2.3em rgb(85,227,34,0.1), 
+               0 -0.5em rgb(85 227 34 / 30%), 
+               0 -0.8em rgb(85 227 34 / 16%);
+}
+
+.wrapper {
+  perspective: 10px;
+  overflow-x: hidden;
+}
+
+/* Loading animation */
+.loading-spinner {
+  @apply w-8 h-8 border-4 border-green-200 border-t-green-600
+         rounded-full animate-spin;
+}
+
+/* Smooth fade transitions */
+.fade-enter {
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+}
